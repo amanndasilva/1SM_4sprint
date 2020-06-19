@@ -1,0 +1,13 @@
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\bin\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.exe
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\bin\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.deps.json
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\bin\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.runtimeconfig.json
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\bin\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.runtimeconfig.dev.json
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\bin\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.dll
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\bin\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.pdb
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\obj\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.csprojAssemblyReference.cache
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\obj\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.AssemblyInfoInputs.cache
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\obj\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.AssemblyInfo.cs
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\obj\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.csproj.CoreCompileInputs.cache
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\obj\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.dll
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\obj\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.pdb
+C:\Users\senai\Desktop\Primeiro POO\Aula 4 - Sistema Simples\obj\Debug\netcoreapp3.1\Aula 4 - Sistema Simples.genruntimeconfig.cache
