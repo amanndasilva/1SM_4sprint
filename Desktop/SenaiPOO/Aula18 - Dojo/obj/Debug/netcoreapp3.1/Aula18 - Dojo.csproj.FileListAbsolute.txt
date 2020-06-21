@@ -1,0 +1,13 @@
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\bin\Debug\netcoreapp3.1\Aula18 - Dojo.exe
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\bin\Debug\netcoreapp3.1\Aula18 - Dojo.deps.json
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\bin\Debug\netcoreapp3.1\Aula18 - Dojo.runtimeconfig.json
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\bin\Debug\netcoreapp3.1\Aula18 - Dojo.runtimeconfig.dev.json
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\bin\Debug\netcoreapp3.1\Aula18 - Dojo.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\bin\Debug\netcoreapp3.1\Aula18 - Dojo.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\obj\Debug\netcoreapp3.1\Aula18 - Dojo.csprojAssemblyReference.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\obj\Debug\netcoreapp3.1\Aula18 - Dojo.AssemblyInfoInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\obj\Debug\netcoreapp3.1\Aula18 - Dojo.AssemblyInfo.cs
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\obj\Debug\netcoreapp3.1\Aula18 - Dojo.csproj.CoreCompileInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\obj\Debug\netcoreapp3.1\Aula18 - Dojo.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\obj\Debug\netcoreapp3.1\Aula18 - Dojo.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula18 - Dojo\obj\Debug\netcoreapp3.1\Aula18 - Dojo.genruntimeconfig.cache
