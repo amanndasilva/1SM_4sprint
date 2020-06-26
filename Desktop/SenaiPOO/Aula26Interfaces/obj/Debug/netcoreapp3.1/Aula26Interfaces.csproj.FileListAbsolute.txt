@@ -1,0 +1,13 @@
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\bin\Debug\netcoreapp3.1\Aula26Interfaces.exe
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\bin\Debug\netcoreapp3.1\Aula26Interfaces.deps.json
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\bin\Debug\netcoreapp3.1\Aula26Interfaces.runtimeconfig.json
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\bin\Debug\netcoreapp3.1\Aula26Interfaces.runtimeconfig.dev.json
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\bin\Debug\netcoreapp3.1\Aula26Interfaces.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\bin\Debug\netcoreapp3.1\Aula26Interfaces.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\obj\Debug\netcoreapp3.1\Aula26Interfaces.csprojAssemblyReference.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\obj\Debug\netcoreapp3.1\Aula26Interfaces.AssemblyInfoInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\obj\Debug\netcoreapp3.1\Aula26Interfaces.AssemblyInfo.cs
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\obj\Debug\netcoreapp3.1\Aula26Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\obj\Debug\netcoreapp3.1\Aula26Interfaces.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\obj\Debug\netcoreapp3.1\Aula26Interfaces.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula26Interfaces\obj\Debug\netcoreapp3.1\Aula26Interfaces.genruntimeconfig.cache
