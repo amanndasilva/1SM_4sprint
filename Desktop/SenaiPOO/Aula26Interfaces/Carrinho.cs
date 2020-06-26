@@ -26,7 +26,7 @@ namespace Aula26Interfaces
         public void Ler()
         {
             foreach(Produto p in carrinho){
-                System.Console.WriteLine($"R$ {p.Preco} \nNome: {p.Nome}");
+                System.Console.WriteLine($"Preço: R$ {p.Preco} \nNome: {p.Nome} \n");
             }
         }
 
