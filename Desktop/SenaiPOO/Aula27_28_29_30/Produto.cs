@@ -11,12 +11,20 @@ namespace Aula27_28_29_30
         private const string PATH = "Database/produto.csv";
 
         public Produto(){
+            //Cria pasta caso ñ exista
+            string pasta = PATH.Split('/')[0];
+
+            if(!Directory.Exists(pasta))
+            {
+                Directory.CreateDirectory(pasta);
+            }
             //Cria o arquivo caso ñ exista
             if(!File.Exists(PATH))
             {
                 File.Create(PATH).Close();
             }
         }
+        
         public void Inserir(Produto prod){
             var linha = new string [] { prod.PrepararLinhaCSV(prod) };
             File.AppendAllLines(PATH, linha);
@@ -24,6 +32,6 @@ namespace Aula27_28_29_30
 
         private string PrepararLinhaCSV(Produto p){
             return $"codigo={p.Codigo};nome={p.Nome};preco={p.Preco}";
-        }
+        }  
     }
 }

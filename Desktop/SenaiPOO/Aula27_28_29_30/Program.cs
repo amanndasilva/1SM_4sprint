@@ -10,6 +10,8 @@ namespace Aula27_28_29_30
             p1.Codigo = 1;
             p1.Nome = "JBL";
             p1.Preco = 680f;
+
+            p1.Inserir(p1);
         }
     }
 }
