@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Aula27_28_29_30
@@ -28,6 +30,40 @@ namespace Aula27_28_29_30
         public void Inserir(Produto prod){
             var linha = new string [] { prod.PrepararLinhaCSV(prod) };
             File.AppendAllLines(PATH, linha);
+        }
+
+        public List<Produto> Ler()
+        {
+            //Lista para guardar o retorno do método
+            List<Produto> prod = new List<Produto>();
+            
+            //Serve para ler as linhas na pasta
+            string[] linhas = File.ReadAllLines(PATH);
+
+            foreach (string linha in linhas)
+            {
+                //Quebra as linhas em
+                string[] dado = linha.Split( ";" );
+
+                Produto p = new Produto();
+                p.Codigo = Int32.Parse( Separar(dado[0]) );
+                p.Nome   = Separar(dado[1]);
+                p.Preco  = float.Parse( Separar(dado[2]) );
+
+                p.Inserir(p);
+            }
+            return prod;
+        }
+
+        /// <summary>
+        /// Método que separa o símbolo de = da string csv
+        /// </summary>
+        /// <param name="dado">Coluna do csv separada</param>
+        /// <returns>string somente com o valor da coluna</returns>
+
+        public string Separar(string dado)
+        {
+            return dado.Split("=")[1];
         }
 
         private string PrepararLinhaCSV(Produto p){
