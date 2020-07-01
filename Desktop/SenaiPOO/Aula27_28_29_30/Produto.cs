@@ -28,7 +28,7 @@ namespace Aula27_28_29_30
             }
         }
         
-        public void Inserir(Produto prod){
+        public void Adicionar(Produto prod){
             string[] linha = new string [] { PrepararLinhaCSV(prod) };
             File.AppendAllLines(PATH, linha);
         }
@@ -51,7 +51,7 @@ namespace Aula27_28_29_30
                 p.Nome   = Separar(dado[1]);
                 p.Preco  = float.Parse( Separar(dado[2]) );
 
-                p.Inserir(p);
+                prod.Add(p);
             }
 
             prod = prod.OrderBy(z => z.Nome).ToList();
