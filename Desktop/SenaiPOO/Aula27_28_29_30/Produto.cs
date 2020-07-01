@@ -59,6 +59,10 @@ namespace Aula27_28_29_30
             return prod;
         }
 
+        public List<Produto> Filtrar(string _nome){
+            return Ler().FindAll(x => x.Nome == _nome);
+        }
+
         public void Remover(string _termo){
 
             List<string> linhas = new List<string>();
