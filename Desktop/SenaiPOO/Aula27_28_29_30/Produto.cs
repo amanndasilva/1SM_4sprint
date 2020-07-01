@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Aula27_28_29_30
 {
@@ -52,7 +53,29 @@ namespace Aula27_28_29_30
 
                 p.Inserir(p);
             }
+
+            prod = prod.OrderBy(z => z.Nome).ToList();
+
             return prod;
+        }
+
+        public void Remover(string _termo){
+
+            List<string> linhas = new List<string>();
+
+            using(StreamReader arquivo = new StreamReader(PATH)){
+                string linha;
+                while((linha = arquivo.ReadLine())!= null)
+                {
+                    linhas.Add(linha);
+                }
+                linhas.RemoveAll(z => z.Contains(_termo));
+            }
+
+            using(StreamWriter output = new StreamWriter(PATH))
+            {
+                output.Write(String.Join(Environment.NewLine, linhas.ToArray()));
+            }
         }
 
         /// <summary>
