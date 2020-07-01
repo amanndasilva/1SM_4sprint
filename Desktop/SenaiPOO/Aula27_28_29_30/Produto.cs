@@ -29,7 +29,7 @@ namespace Aula27_28_29_30
         }
         
         public void Inserir(Produto prod){
-            var linha = new string [] { prod.PrepararLinhaCSV(prod) };
+            string[] linha = new string [] { PrepararLinhaCSV(prod) };
             File.AppendAllLines(PATH, linha);
         }
 
@@ -78,7 +78,10 @@ namespace Aula27_28_29_30
 
             using(StreamWriter output = new StreamWriter(PATH))
             {
-                output.Write(String.Join(Environment.NewLine, linhas.ToArray()));
+                foreach(string ln in linhas)
+                {
+                    output.Write(ln+"\n");
+                }
             }
         }
 
