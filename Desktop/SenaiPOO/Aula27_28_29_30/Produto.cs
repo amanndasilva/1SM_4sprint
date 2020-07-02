@@ -33,6 +33,10 @@ namespace Aula27_28_29_30
             File.AppendAllLines(PATH, linha);
         }
 
+        /// <summary>
+        /// Lê o CSV
+        /// </summary>
+        /// <returns>Lista de produtos</returns>
         public List<Produto> Ler()
         {
             //Lista para guardar o retorno do método
@@ -73,12 +77,39 @@ namespace Aula27_28_29_30
                 {
                     linhas.Add(linha);
                 }
+                //Remove as linhas com os argumentos antigos
                 linhas.RemoveAll(z => z.Contains(_termo));
             }
+            ReescreverCSV(linhas);
+        }
 
+        public void Alterar(Produto _produtoAlterado){
+            //
+            List<string> linhas = new List<string>();
+
+            //
+            using(StreamReader arquivo = new StreamReader(PATH)){
+                string linha;
+                while((linha = arquivo.ReadLine())!= null)
+                {
+                    linhas.Add(linha);
+                }
+            }
+            // codigo=2;nome=Mondial;preco=550;
+            linhas.RemoveAll(z=> z.Split(";")[0].Contains(_produtoAlterado.Codigo.ToString()));
+
+            //Adicionams a linha alterada na lista de backup
+            linhas.Add(PrepararLinhaCSV(_produtoAlterado));
+
+            //Reescrevemos o csv do zero
+            ReescreverCSV(linhas);
+        }
+
+        private void ReescreverCSV(List<string> lines){
+            //Reescrevemos o csv do zero
             using(StreamWriter output = new StreamWriter(PATH))
             {
-                foreach(string ln in linhas)
+                foreach(string ln in lines)
                 {
                     output.Write(ln+"\n");
                 }
@@ -90,12 +121,13 @@ namespace Aula27_28_29_30
         /// </summary>
         /// <param name="dado">Coluna do csv separada</param>
         /// <returns>string somente com o valor da coluna</returns>
-
+        
         public string Separar(string dado)
         {
             return dado.Split("=")[1];
         }
 
+        //Prepara as linhas no csv
         private string PrepararLinhaCSV(Produto p){
             return $"codigo={p.Codigo};nome={p.Nome};preco={p.Preco}";
         }  

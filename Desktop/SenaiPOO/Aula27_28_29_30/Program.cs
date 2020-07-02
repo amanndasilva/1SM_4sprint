@@ -15,6 +15,13 @@ namespace Aula27_28_29_30
             p1.Adicionar(p1);
             //p1.Remover("Mondial");
 
+            Produto alterado = new Produto();
+            alterado.Codigo = 2;
+            alterado.Nome = "Philco";
+            alterado.Preco = 400f;
+
+            p1.Alterar(alterado);
+
             List<Produto> lista = p1.Ler();
 
             foreach (Produto item in lista)
