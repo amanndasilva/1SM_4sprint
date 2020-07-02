@@ -5,7 +5,11 @@ using System.Linq;
 
 namespace Aula27_28_29_30
 {
-    public class Produto
+    public interface IProduto<P>
+    {
+       bool Produto(Produto prod);
+    }
+    public class Produto : IProduto
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }
