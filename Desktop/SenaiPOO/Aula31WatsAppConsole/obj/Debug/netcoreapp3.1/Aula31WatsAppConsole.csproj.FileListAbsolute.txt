@@ -1,0 +1,13 @@
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\bin\Debug\netcoreapp3.1\Aula31WatsAppConsole.exe
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\bin\Debug\netcoreapp3.1\Aula31WatsAppConsole.deps.json
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\bin\Debug\netcoreapp3.1\Aula31WatsAppConsole.runtimeconfig.json
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\bin\Debug\netcoreapp3.1\Aula31WatsAppConsole.runtimeconfig.dev.json
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\bin\Debug\netcoreapp3.1\Aula31WatsAppConsole.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\bin\Debug\netcoreapp3.1\Aula31WatsAppConsole.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\obj\Debug\netcoreapp3.1\Aula31WatsAppConsole.csprojAssemblyReference.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\obj\Debug\netcoreapp3.1\Aula31WatsAppConsole.AssemblyInfoInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\obj\Debug\netcoreapp3.1\Aula31WatsAppConsole.AssemblyInfo.cs
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\obj\Debug\netcoreapp3.1\Aula31WatsAppConsole.csproj.CoreCompileInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\obj\Debug\netcoreapp3.1\Aula31WatsAppConsole.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\obj\Debug\netcoreapp3.1\Aula31WatsAppConsole.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula31WatsAppConsole\obj\Debug\netcoreapp3.1\Aula31WatsAppConsole.genruntimeconfig.cache
