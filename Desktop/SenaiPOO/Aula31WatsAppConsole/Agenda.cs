@@ -7,6 +7,7 @@ namespace Aula31WatsAppConsole
 {
     public class Agenda : IAgenda
     {
+        List<Contato> contatos = new List<Contato>();
         private const string PATH = "Database/agenda.csv";
 
         public Agenda(){
@@ -24,37 +25,58 @@ namespace Aula31WatsAppConsole
             }
         }
 
-        public List<Contato> Ler()
+        public void Cadastrar(Contato cont)
         {
-            //Lista para guardar o retorno do método
-            List<Contato> cont = new List<Contato>();
+            string[] linha = {PrepararLinhaCSV(cont)};
+            File.AppendAllLines(PATH, linha);
+        }
+
+        public void Excluir(Contato contato)
+        {
             
-            //Serve para ler as linhas na pasta
+            List<string> linhas = new List<string>();
+
+            using(StreamReader arquivo = new StreamReader(PATH))
+            {
+                string linha;
+                while((linha = arquivo.ReadLine())!= null)
+                {
+                    linhas.Add(linha);
+                }
+
+                linhas.RemoveAll(x => x.Contains(contato.Nome));
+            }
+            ReescreverCSV(linhas);
+        }
+
+        public List<Contato> Listar()
+        {
             string[] linhas = File.ReadAllLines(PATH);
 
             foreach (string linha in linhas)
             {
                 string[] dado = linha.Split( ";" );
-
-                Contato c = new Contato();
-                c.Nome = Separar(dado[1]);
-                c.Telefone = Int32.Parse( Separar(dado[0]) );
-
-                cont.Add(c);
+                contatos.Add(new Contato(dado[0], dado[1]));
             }
 
-            cont = cont.OrderBy(z => z.Nome).ToList();
+            contatos = contatos.OrderBy(z => z.Nome).ToList();
 
-            return cont;
-        }
-
-        public string Separar(string dado)
-        {
-            return dado.Split("=")[1];
+            return contatos;
         }
 
         private string PrepararLinhaCSV(Contato c){
-            return $"nome={c.Nome};numero={c.Telefone}";
+            return $"{c.Nome};{c.Telefone}";
+        }
+
+        private void ReescreverCSV(List<string> lines){
+            //Reescrevemos o csv do zero
+            using(StreamWriter output = new StreamWriter(PATH))
+            {
+                foreach(string ln in lines)
+                {
+                    output.Write(ln+"\n");
+                }
+            }
         }
     }
 }
