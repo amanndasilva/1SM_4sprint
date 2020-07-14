@@ -14,7 +14,7 @@ namespace E_Players_AspNETCore.Models
 
         private const string PATH = "Database/noticias.csv";
 
-        public void Creat(Noticias n)
+        public void Create(Noticias n)
         {
             string[] linha = {PrepararLinha(n)};
             File.AppendAllLines(PATH, linha);
@@ -46,7 +46,7 @@ namespace E_Players_AspNETCore.Models
         public void Update(Noticias n)
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
-            linhas.RemoveAll(z => z.Split(";")[0] == n.IdNoticia.ToString());
+            linhas.RemoveAll(x => x.Split(";")[0] == n.IdNoticia.ToString());
             linhas.Add(PrepararLinha(n));
             RewriteCSV(PATH, linhas);
         }

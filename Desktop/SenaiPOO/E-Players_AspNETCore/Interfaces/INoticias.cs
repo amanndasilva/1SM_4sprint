@@ -6,7 +6,7 @@ namespace E_Players_AspNETCore.Interfaces
     public interface INoticias
     {
         //Criar
-        void Creat(Noticias n);
+        void Create(Noticias n);
 
         //Ler
         List<Noticias> ReadAll();

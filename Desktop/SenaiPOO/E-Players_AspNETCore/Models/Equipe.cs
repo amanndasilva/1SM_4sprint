@@ -13,7 +13,7 @@ namespace E_Players_AspNETCore.Models
 
         private const string PATH = "Database/equipe.csv";
 
-        public void Creat(Equipe e)
+        public void Create(Equipe e)
         {
             string[] linha = {PrepararLinha(e)};
             File.AppendAllLines(PATH, linha);
@@ -56,5 +56,6 @@ namespace E_Players_AspNETCore.Models
 
             RewriteCSV(PATH, linhas);
         }
+
     }
 }

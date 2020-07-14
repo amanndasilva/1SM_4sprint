@@ -20521,6 +20521,11 @@
   "RootNamespace": "E_Players_AspNETCore",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\senai\\Desktop\\SenaiPOO\\E-Players_AspNETCore\\Views\\Equipe\\Index.cshtml",
+      "TargetPath": "Views\\Equipe\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\senai\\Desktop\\SenaiPOO\\E-Players_AspNETCore\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
