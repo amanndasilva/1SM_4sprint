@@ -24,9 +24,10 @@
                     <img src="Images/Logo.svg" alt="Logo do site E-Players">
                 </a>
             </div>
+            
             <nav id="menu">
                 <ul>
-                    <li><a asp-controller="Home" asp-action="Index" title="voltar para a página inicial">INÍCIO</a></li>
+                    <li><a asp-controller="Home" asp-action="Index" title="Voltar para a página inicial">INÍCIO</a></li>
                     <li><a href="#horarios" title="Ir até a sessão de horários das partidas">HORÁRIOS</a></li>
                     <li><a href="#resultados" title="Ir até a sessão de resultados das partidas">RESULTADOS</a></li>
                     <li><a href="#noticias" title="Ir até a sessão de notícias">NOTÍCIAS</a></li>
@@ -36,10 +37,9 @@
         </div>
     </header>
     
-
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
 
     <footer>
         <div class="container">

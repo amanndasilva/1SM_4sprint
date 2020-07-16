@@ -59,11 +59,5 @@ namespace E_Players_AspNETCore.Controllers
             return LocalRedirect("~/Noticias");
         }
 
-        public IActionResult Excluir(int id)
-        {
-            noticiaModel.Delete(id);
-            return LocalRedirect("~/Noticias");
-        }
-
     }
 }
