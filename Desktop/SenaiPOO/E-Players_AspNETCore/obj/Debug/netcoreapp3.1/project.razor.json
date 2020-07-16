@@ -20541,13 +20541,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\senai\\Desktop\\SenaiPOO\\E-Players_AspNETCore\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\senai\\Desktop\\SenaiPOO\\E-Players_AspNETCore\\Views\\Noticias\\Noticias.cshtml",
+      "TargetPath": "Views\\Noticias\\Noticias.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\senai\\Desktop\\SenaiPOO\\E-Players_AspNETCore\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\senai\\Desktop\\SenaiPOO\\E-Players_AspNETCore\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
