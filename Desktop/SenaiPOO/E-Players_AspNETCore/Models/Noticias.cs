@@ -9,8 +9,8 @@ namespace E_Players_AspNETCore.Models
     {
         public int IdNoticia { get; set; }
         public string Titulo { get; set; }
-        public string Texto { get; set; }
         public string Imagem { get; set; }
+        public string Texto { get; set; }
 
         private const string PATH = "Database/noticias.csv";
 
@@ -22,7 +22,7 @@ namespace E_Players_AspNETCore.Models
 
         private string PrepararLinha(Noticias n)
         {
-            return $"{n.IdNoticia};{n.Titulo};{n.Texto};{n.Imagem}";
+            return $"{n.IdNoticia};{n.Titulo};{n.Imagem};{n.Texto}";
         }
 
         public List<Noticias> ReadAll()
