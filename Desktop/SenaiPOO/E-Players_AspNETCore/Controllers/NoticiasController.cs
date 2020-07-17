@@ -21,10 +21,15 @@ namespace E_Players_AspNETCore.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Vai cadastrar as notícias 
+        /// </summary>
+        /// <param name="form"></param>
+        /// <returns></returns>
         public IActionResult Cadastrar(IFormCollection form)
         {
             Noticias novaNoticia = new Noticias();
-            novaNoticia.IdNoticia = Int32.Parse(form["IdEquipe"]);
+            novaNoticia.IdNoticia = Int32.Parse(form["IdNoticias"]);
             novaNoticia.Titulo = form["Titulo"];
 
             // Início do upload
@@ -56,6 +61,14 @@ namespace E_Players_AspNETCore.Controllers
             noticiaModel.Create(novaNoticia);
 
             ViewBag.Noticia = noticiaModel.ReadAll();
+            return LocalRedirect("~/Noticias");
+        }
+
+        [Route("{id}")]
+
+        public IActionResult Excluir(int id)
+        {
+            noticiaModel.Delete(id);
             return LocalRedirect("~/Noticias");
         }
 

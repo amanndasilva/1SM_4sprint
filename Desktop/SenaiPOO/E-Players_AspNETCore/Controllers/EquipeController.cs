@@ -22,7 +22,7 @@ namespace E_Players_AspNETCore.Controllers
         }
 
         /// <summary>
-        /// Vai cadastrar o nome das equipes no programa e no CSV
+        /// Vai cadastrar as equipes no programa e no CSV
         /// </summary>
         /// <param name="form"></param>
         /// <returns></returns>

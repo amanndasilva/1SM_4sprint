@@ -13,7 +13,7 @@ namespace E_Players_AspNETCore.Models
 
         private const string PATH = "Database/equipe.csv";
 
-        // Cria a pasta
+        // Cria o arquivo Equipe na pasta Database
         public Equipe()
         {
             CreateFolderAndFile(PATH);
@@ -26,7 +26,7 @@ namespace E_Players_AspNETCore.Models
         }
 
         /// <summary>
-        /// Prepara uma linha no CSV
+        /// Prepara uma linha de Equipe no CSV
         /// </summary>
         /// <param name="e"></param>
         /// <returns></returns>
@@ -36,7 +36,7 @@ namespace E_Players_AspNETCore.Models
         }
 
         /// <summary>
-        /// Lê todas as linhas da lista
+        /// Lê todas as linhas da lista Equipe
         /// </summary>
         /// <returns></returns>
         public List<Equipe> ReadAll()
@@ -57,7 +57,7 @@ namespace E_Players_AspNETCore.Models
         }
 
         /// <summary>
-        /// Altera uma linha no CSV e reescreve
+        /// Altera uma linha na lista Equipe no CSV e reescreve
         /// </summary>
         /// <param name="e"></param>
         public void Update(Equipe e)
@@ -69,7 +69,7 @@ namespace E_Players_AspNETCore.Models
         }
 
         /// <summary>
-        /// Deleta a linha selecionada no CSV e a reescreve
+        /// Deleta a linha na lista Equipe selecionada no CSV e a reescreve
         /// </summary>
         /// <param name="idEquipe"></param>
         public void Delete(int idEquipe)

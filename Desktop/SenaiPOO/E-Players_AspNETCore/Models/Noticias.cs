@@ -14,17 +14,32 @@ namespace E_Players_AspNETCore.Models
 
         private const string PATH = "Database/noticias.csv";
 
+        // Cria o arquivo Notícias na pasta Database
+        public Noticias()
+        {
+            CreateFolderAndFile(PATH);
+        }
+
         public void Create(Noticias n)
         {
             string[] linha = {PrepararLinha(n)};
             File.AppendAllLines(PATH, linha);
         }
 
+        /// <summary>
+        /// Prepara uma linha de Notícia no CSV
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         private string PrepararLinha(Noticias n)
         {
             return $"{n.IdNoticia};{n.Titulo};{n.Imagem};{n.Texto}";
         }
 
+        /// <summary>
+        /// Lê todas as linhas da lista Notícias
+        /// </summary>
+        /// <returns></returns>
         public List<Noticias> ReadAll()
         {
             List<Noticias> noticias = new List<Noticias>();
@@ -43,6 +58,10 @@ namespace E_Players_AspNETCore.Models
             return noticias;
         }
 
+        /// <summary>
+        /// Altera uma linha na lista Notícias e reescreve
+        /// </summary>
+        /// <param name="n"></param>
         public void Update(Noticias n)
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
@@ -51,6 +70,10 @@ namespace E_Players_AspNETCore.Models
             RewriteCSV(PATH, linhas);
         }
 
+        /// <summary>
+        /// Deleta uma linha na lista Notícias selecionada no CSV e a resscreve
+        /// </summary>
+        /// <param name="idNoticias"></param>
         public void Delete(int idNoticias)
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
