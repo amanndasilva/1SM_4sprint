@@ -33,7 +33,9 @@ CREATE TABLE albuns(
 CREATE TABLE usuarios(
 	IdUsuario INT IDENTITY PRIMARY KEY NOT NULL,
 	Nome VARCHAR (20) NOT NULL,
-	StatusUsario VARCHAR NOT NULL,
+	StatusUsuario VARCHAR (10) NOT NULL,
 	Senha VARCHAR (15) NOT NULL,
 	Email VARCHAR (30) NOT NULL
 );
+
+-- DROP TABLE usuarios;
