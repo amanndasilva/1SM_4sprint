@@ -1,0 +1,13 @@
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\bin\Debug\netcoreapp3.1\Aula 20 - fixacao3.exe
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\bin\Debug\netcoreapp3.1\Aula 20 - fixacao3.deps.json
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\bin\Debug\netcoreapp3.1\Aula 20 - fixacao3.runtimeconfig.json
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\bin\Debug\netcoreapp3.1\Aula 20 - fixacao3.runtimeconfig.dev.json
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\bin\Debug\netcoreapp3.1\Aula 20 - fixacao3.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\bin\Debug\netcoreapp3.1\Aula 20 - fixacao3.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\obj\Debug\netcoreapp3.1\Aula 20 - fixacao3.csprojAssemblyReference.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\obj\Debug\netcoreapp3.1\Aula 20 - fixacao3.AssemblyInfoInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\obj\Debug\netcoreapp3.1\Aula 20 - fixacao3.AssemblyInfo.cs
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\obj\Debug\netcoreapp3.1\Aula 20 - fixacao3.csproj.CoreCompileInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\obj\Debug\netcoreapp3.1\Aula 20 - fixacao3.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\obj\Debug\netcoreapp3.1\Aula 20 - fixacao3.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula 20 - fixacao3\obj\Debug\netcoreapp3.1\Aula 20 - fixacao3.genruntimeconfig.cache

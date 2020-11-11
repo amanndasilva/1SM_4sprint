@@ -1,0 +1,13 @@
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\bin\Debug\netcoreapp3.1\Aula21 - correcao.exe
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\bin\Debug\netcoreapp3.1\Aula21 - correcao.deps.json
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\bin\Debug\netcoreapp3.1\Aula21 - correcao.runtimeconfig.json
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\bin\Debug\netcoreapp3.1\Aula21 - correcao.runtimeconfig.dev.json
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\bin\Debug\netcoreapp3.1\Aula21 - correcao.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\bin\Debug\netcoreapp3.1\Aula21 - correcao.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\obj\Debug\netcoreapp3.1\Aula21 - correcao.csprojAssemblyReference.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\obj\Debug\netcoreapp3.1\Aula21 - correcao.AssemblyInfoInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\obj\Debug\netcoreapp3.1\Aula21 - correcao.AssemblyInfo.cs
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\obj\Debug\netcoreapp3.1\Aula21 - correcao.csproj.CoreCompileInputs.cache
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\obj\Debug\netcoreapp3.1\Aula21 - correcao.dll
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\obj\Debug\netcoreapp3.1\Aula21 - correcao.pdb
+C:\Users\senai\Desktop\SenaiPOO\Aula21 - correcao\obj\Debug\netcoreapp3.1\Aula21 - correcao.genruntimeconfig.cache
